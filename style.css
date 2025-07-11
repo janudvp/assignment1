@@ -29,21 +29,31 @@
     padding: 50px 0px;
  }
 
- .common-btn {
-    background-color: rgb(78, 71, 255);
-    padding: 12px 35px 12px 36px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    color: white;
-    text-transform: capitalize;
- }
+.common-btn {
+  background-color: rgb(78, 71, 255);
+  padding: 12px 35px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.common-btn:hover {
+  background-color: yellow;
+  color: black;
+  transform: scale(1.10); 
+}
+
 
  .logo-text {
     color: rgb(78, 71, 255);
     font-size: 45px;
+    text-transform: uppercase;
  }
 
  .banner-contain {
@@ -145,3 +155,197 @@
       line-height: 24px;
       margin-top: 4px;
  }
+
+
+  /*==== Usear say */
+
+  .user-say-area{
+   padding-top: 116px
+  }
+
+.user-say-title{
+   color: rgb(37, 36, 50);
+      font-size: 42px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 50px;
+  }
+
+  .user-say-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+  }
+
+  .user-say-card{
+   box-sizing: border-box;
+border: 1px solid rgb(242, 237, 237);
+border-radius: 14px;
+
+background: rgba(255, 255, 255, 0.5);
+padding: 24px;
+  }
+
+  .user-start-icon ul{
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   margin-bottom: 16px;
+  }
+.user-start-icon ul li {
+   list-style: none;
+}
+
+.user-say-card h2{
+   color: rgb(30, 30, 30);
+   font-size: 24px;
+   font-weight: 600;
+   text-align: left;
+}
+.user-say-card p{
+   color: rgb(30, 30, 30);
+   font-size: 16px;
+   font-weight: 400;
+   padding-top: 4px;
+}
+
+.user_avater{
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.user-img{
+   width: 40px;
+   height: 40px;
+}
+.user-img img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%; 
+}
+.user-name h4{
+   font-size: 18px;
+   color: #000;
+   margin-bottom: 2px;
+}
+.user-name p{
+   /* Body Strong */
+color: rgb(117, 117, 117);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+padding: 0;
+}
+
+
+ /*========= contact us area  =====*/
+
+ .contact-us-area{
+   padding-top: 116px;
+   padding-bottom: 70px;
+ }
+
+.contact-us-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.contact-us-left{
+   width: 50%;
+}
+
+.contact-us-right{
+   width: 50%;
+}
+
+.contact-us-title h1{
+   color: rgb(0, 0, 0);
+   font-size: 97px;
+   font-weight: 700;
+   line-height: 104px;
+   width: 528px;
+}
+
+.contact-form label{
+   color: rgb(0, 0, 0);
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 500;
+   margin-bottom: 10px;
+   display: block;
+   text-transform: capitalize;
+}
+
+.contact-form input, .contact-form textarea{
+   box-sizing: border-box;
+border: 1px solid rgb(214, 221, 237);
+border-radius: 10px;
+
+background: rgb(255, 255, 255);
+margin-bottom: 20px;
+padding: 20px 32px;
+width: 100%;
+}
+
+.message_area{
+   height: 135px;
+   width: 100%;
+}
+
+.contact-form .common-btn{
+   width: 100%;
+}
+
+/* Footer Area  */
+
+
+.footer-area{
+   padding-top: 105px;
+   padding-bottom: 105px;
+   background-color: white;
+}
+
+.footer-container{
+   width: 530px;
+   margin: 0 auto;
+}
+
+.footer-content h1{
+   color: rgb(78, 71, 255);
+   font-size: 100px;
+   font-weight: 900;
+   text-align: center;
+}
+.footer-content p{
+   /* Paragraph */
+   color: rgb(137, 135, 161);
+   font-size: 16px;
+   font-weight: 400;
+   text-align: center;
+   padding: 3px 0px;
+}
+
+.footer-nav{
+   text-align: center;
+}
+
+.footer-nav ul{
+ display: flex;
+ align-items: center;
+ gap: 48px;
+ text-align: center;
+}
+
+.footer-nav ul li {
+    text-align: center;
+    width: 100%;
+    list-style: none;
+    color: rgb(137, 135, 161);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+   }

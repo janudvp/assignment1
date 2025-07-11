@@ -1,0 +1,147 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    background-color: rgb(245, 248, 255);
+ }
+
+ .container {
+    width: 1140px;
+    margin: 0 auto;
+ }
+
+ .banner-area {
+    width: 100%;
+    /* height: 698px; */
+    background-image: url('./Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+ }
+
+ .nav-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+ }
+
+ .common-btn {
+    background-color: rgb(78, 71, 255);
+    padding: 12px 35px 12px 36px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+ }
+
+ .logo-text {
+    color: rgb(78, 71, 255);
+    font-size: 45px;
+ }
+
+ .banner-contain {
+    width: 905px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 158px;
+    padding-bottom: 152px;
+ }
+
+ .banner-contain h1 {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 37px;
+ }
+
+
+
+ /*====== See it action  =====*/
+
+ .see-it-action-area {
+    padding-top: 116px;
+ }
+
+ .see-it-action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .see-it-description h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 23px;
+ }
+
+ .see-it-description p {
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    width: 465px;
+ }
+
+ .see-it-img {
+    width: 403px;
+    height: 328px;
+ }
+
+ .see-it-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 48px;
+ }
+
+ /* Productive User Area Start  */
+ .productive-user-area{
+   padding-top: 116px;
+ }
+
+ .proudctive-user-container {
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.1);
+    padding: 50px 100px;
+ }
+
+ .productive-user-title{
+      color: rgb(37, 36, 50);
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 45px;
+      text-align: center;
+      margin-bottom: 40px;
+ }
+
+ .productive-user-count{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ .productive-user-count .productve-user-item h2 {
+   color: rgb(78, 71, 255);
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 85px;
+ }
+
+ .productive-user-count .productve-user-item p{
+   color: rgba(0, 0, 0, 0.5);
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-top: 4px;
+ }
